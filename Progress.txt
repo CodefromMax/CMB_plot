@@ -1,0 +1,16 @@
+Graph CMB:
+Don't know how to change to Galactocentric Coordinate it is ["G"] Milky Way at the middle 
+Don't know how to properly graph 545, 847 using healpy
+Working on S2fft
+
+working on s2wav:
+error:
+    s2wav.analysis(f, L, N, sampling = "healpix")
+    The datatype of the default Healpy planck map array is f4
+    Dtype >f4 is not a valid JAX array type. Only arrays of numeric types are supported by JAX.
+
+    solution:
+    !pip install jax
+    import jax
+    jax.config.update("jax_enable_x64", True)
+

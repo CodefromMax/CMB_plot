@@ -1,0 +1,9 @@
+Note:
+https://zonca.dev/posts/2021-02-28-compute-planck-spectra-healpy-anafast
+https://learn.astropy.org/tutorials/FITS-tables.html
+https://healpy.readthedocs.io/en/stable/index.htmls
+
+Key features of HEALPix include:
+Equal Area: HEALPix divides the sphere into pixels of equal area. This property is crucial for accurately representing data on the sphere, especially when dealing with statistical analyses or visualizations.
+Hierarchical: HEALPix allows for hierarchical indexing, meaning that pixels at different resolutions (levels of detail) can be easily identified and accessed. This hierarchical structure enables efficient storage and analysis of data over a range of spatial scales.
+isoLatitude: HEALPix pixels are organized in a way that preserves lines of constant latitude, simplifying certain types of analyses and ensuring that the pixelization does not introduce distortions related to latitude variations.
