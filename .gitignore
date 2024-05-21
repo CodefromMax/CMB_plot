@@ -3,3 +3,4 @@
 *.fits
 s2fft/
 s2wav/
+*.npy

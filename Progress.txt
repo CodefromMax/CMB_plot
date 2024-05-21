@@ -14,3 +14,8 @@ error:
     import jax
     jax.config.update("jax_enable_x64", True)
 
+save jax array:
+https://github.com/google/jax/discussions/3766
+https://github.com/google/jax/discussions/11091
+https://github.com/google/jax/issues/712
+
